@@ -6,16 +6,8 @@ class _ApplicationKeywords(KeywordGroup):
     def __init__(self):
         self.application_name = None
         self.application_path = None
-    
+
     # Public
-    
-    class _ApplicationKeywords(KeywordGroup):
-    def __init__(self):
-        self.application_name = None
-        self.application_path = None
-    
-    # Public
-    
     def set_application_focus(self, app_name):
         """Sets focus to the open ``application`` matching the given ``app_name``.
         
